@@ -5,11 +5,38 @@ The marine_knowledge_ai project is designed to leverage artificial intelligence 
 
 ## Project Structure
 ```
-marine_knowledge_ai
-├── data
-│   └── raw_documents
-├── test.py
-└── README.md
+marine_knowledge_ai/
+│
+├── main.py                          # Optional main entry point to test end-to-end manually
+│
+├── ingestion/                       # 📦 Phase 1 - Raw Data Ingestion + Processing
+│   ├── __init__.py                  # Makes this a Python package
+│   ├── load_metadata.py            ✅ Phase 1.1 - Load metadata and file paths
+│   ├── extract_text.py             ✅ Phase 1.2 - Extract text from PDFs (PyPDF2)
+│   └── generate_embeddings.py      ✅ Phase 1.3 - Generate vector embeddings using SentenceTransformers
+│
+├── index/                           # 📦 Phase 1.4 - Vector Indexing (ChromaDB)
+│   ├── __init__.py
+│   └── vector_store.py             🔜 Vector DB init + indexing + search
+│
+├── api/                             # 📦 Phase 1.5 - Semantic Search API (Flask or FastAPI)
+│   ├── __init__.py
+│   └── search_api.py               🔜 REST API for query → embedding → search
+│
+├── ui/                              # 📦 Phase 1.6 - Minimal Search UI
+│   └── index.html                  🔜 Search bar + result viewer (Optional HTML/JS prototype)
+│
+├── embeddings/                      # 📁 Stores JSON of embedded documents (Phase 1.3 Output)
+│   └── embedded_documents.json
+│
+├── data/
+│   ├── metadata.json               ✅ Phase 0 - Your input metadata
+│   └── raw_documents/             ✅ Folder for original PDFs, images, etc.
+│       ├── *.pdf
+│       ├── extracted_text.json    ✅ Phase 1.2 output
+│
+├── requirements.txt                # Python dependencies
+└── README.md                       # Documentation for your project
 ```
 
 ### Folders
