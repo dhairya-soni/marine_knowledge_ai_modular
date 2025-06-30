@@ -1,0 +1,132 @@
+[
+  {
+    "file_name": "i125s.pdf",
+    "document_id": "DOC-001",
+    "title": "I125S Compressor Specification Sheet",
+    "document_type": "Specification Sheet",
+    "vessel_id": "GENERIC-VSL-01",
+    "system": "Air Compression",
+    "revision": "1.0",
+    "source_path": "data/raw_documents/i125s.pdf"
+  },
+  {
+    "file_name": "2_hp__8_gallon_air_compressor.pdf",
+    "document_id": "DOC-002",
+    "title": "2HP 8-Gallon Air Compressor Manual",
+    "document_type": "User Manual",
+    "vessel_id": "GENERIC-VSL-01",
+    "system": "Air Compression",
+    "revision": "Rev A",
+    "source_path": "data/raw_documents/2_hp__8_gallon_air_compressor.pdf"
+  },
+  {
+    "file_name": "03ed0a.pdf",
+    "document_id": "DOC-003",
+    "title": "Compressor Installation Guide - 03ED0A",
+    "document_type": "Installation Guide",
+    "vessel_id": "GENERIC-VSL-02",
+    "system": "Refrigeration",
+    "revision": "2.0",
+    "source_path": "data/raw_documents/03ed0a.pdf"
+  },
+  {
+    "file_name": "807.pdf",
+    "document_id": "DOC-004",
+    "title": "Compressor Fault Code Reference 807 Series",
+    "document_type": "Troubleshooting Guide",
+    "vessel_id": "GENERIC-VSL-03",
+    "system": "Air Compression",
+    "revision": "1.1",
+    "source_path": "data/raw_documents/807.pdf"
+  },
+  {
+    "file_name": "125200.pdf",
+    "document_id": "DOC-005",
+    "title": "Model 125200 Maintenance Manual",
+    "document_type": "Maintenance Manual",
+    "vessel_id": "GENERIC-VSL-01",
+    "system": "Cooling System",
+    "revision": "Rev B",
+    "source_path": "data/raw_documents/125200.pdf"
+  },
+  {
+    "file_name": "cas2545.pdf",
+    "document_id": "DOC-006",
+    "title": "CAS2545 Technical Specification",
+    "document_type": "Specification Sheet",
+    "vessel_id": "GENERIC-VSL-04",
+    "system": "High-Pressure Air",
+    "revision": "A",
+    "source_path": "data/raw_documents/cas2545.pdf"
+  },
+  {
+    "file_name": "fac104m1a1.pdf",
+    "document_id": "DOC-007",
+    "title": "FAC104M1A1 Electrical Diagram",
+    "document_type": "Electrical Schematic",
+    "vessel_id": "GENERIC-VSL-05",
+    "system": "Control Panel",
+    "revision": "1.0",
+    "source_path": "data/raw_documents/fac104m1a1.pdf"
+  },
+  {
+    "file_name": "g20.pdf",
+    "document_id": "DOC-008",
+    "title": "G20 Compressor Wiring Diagram",
+    "document_type": "Wiring Diagram",
+    "vessel_id": "GENERIC-VSL-01",
+    "system": "Electrical",
+    "revision": "C",
+    "source_path": "data/raw_documents/g20.pdf"
+  },
+  {
+    "file_name": "zt_series.pdf",
+    "document_id": "DOC-009",
+    "title": "ZT Series Oil-Free Compressor Manual",
+    "document_type": "Product Manual",
+    "vessel_id": "GENERIC-VSL-06",
+    "system": "Oil-Free Compression",
+    "revision": "Rev 3",
+    "source_path": "data/raw_documents/zt_series.pdf"
+  },
+  {
+    "file_name": "quantum.pdf",
+    "document_id": "DOC-010",
+    "title": "Quantum Compressor Control System",
+    "document_type": "Control Manual",
+    "vessel_id": "GENERIC-VSL-07",
+    "system": "Compressor Controls",
+    "revision": "1.2",
+    "source_path": "data/raw_documents/quantum.pdf"
+  },
+  {
+    "file_name": "smartpack_100h.pdf",
+    "document_id": "DOC-011",
+    "title": "SmartPack 100H Battery Pack Technical Manual",
+    "document_type": "Technical Manual",
+    "vessel_id": "GENERIC-VSL-08",
+    "system": "Backup Power",
+    "revision": "Rev 5",
+    "source_path": "data/raw_documents/smartpack_100h.pdf"
+  },
+  {
+    "file_name": "srl_series.pdf",
+    "document_id": "DOC-012",
+    "title": "SRL Series Screw Compressor",
+    "document_type": "Product Brochure",
+    "vessel_id": "GENERIC-VSL-06",
+    "system": "Rotary Screw Compressor",
+    "revision": "1.0",
+    "source_path": "data/raw_documents/srl_series.pdf"
+  },
+  {
+    "file_name": "zr55.pdf",
+    "document_id": "DOC-013",
+    "title": "ZR55 Air Compressor Manual",
+    "document_type": "User Manual",
+    "vessel_id": "GENERIC-VSL-09",
+    "system": "Industrial Air",
+    "revision": "Rev C",
+    "source_path": "data/raw_documents/zr55.pdf"
+  }
+]
