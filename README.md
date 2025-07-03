@@ -33,7 +33,7 @@ marine_knowledge_ai/
 │   ├── metadata.json               ✅ Phase 0 - Your input metadata
 │   └── raw_documents/             ✅ Folder for original PDFs, images, etc.
 │       ├── *.pdf
-│       ├── extracted_text.json    ✅ Phase 1.2 output
+│       ├── extracted_text.json    ✅ Phase 1.2 Output
 │
 ├── requirements.txt                # Python dependencies
 └── README.md                       # Documentation for your project
@@ -53,3 +53,4 @@ marine_knowledge_ai/
 
 ## Contributing
 Contributions to the marine_knowledge_ai project are welcome. Please submit a pull request or open an issue for any suggestions or improvements.
+
